@@ -1,1 +1,0 @@
-{"version":3,"file":"static/css/main.a6a5fb60.css","mappings":"AAAA,cAEI,oBAAqB,CADrB,cAEJ,CCHA,KACI,iCACJ","sources":["css/about.css","style.css"],"sourcesContent":[".skill-icon i{\r\n    font-size: 5rem;\r\n    display: inline-block;\r\n}","body{\r\n    font-family: 'Sofia Sans', sans-serif;\r\n}"],"names":[],"sourceRoot":""}
