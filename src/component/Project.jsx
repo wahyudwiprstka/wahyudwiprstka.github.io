@@ -6,110 +6,66 @@ import abccars from '../img/abccars.png';
 
 const Project = () => {
     return(
-        <section id="project">
+        <section className="mb-8" id="project">
             <h1 className="text-3xl text-center text-primary font-bold mt-10 mb-2">My Projects</h1>
-            <div id="carouselExampleCaptions" class="carousel slide carousel-fade relative" data-bs-ride="carousel">
-                <div class="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
-                    <button
-                    type="button"
-                    data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide-to="0"
-                    class="active"
-                    aria-current="true"
-                    aria-label="Slide 1"
-                    ></button>
-                    <button
-                    type="button"
-                    data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide-to="1"
-                    aria-label="Slide 2"
-                    ></button>
-                    <button
-                    type="button"
-                    data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide-to="2"
-                    aria-label="Slide 3"
-                    ></button>
-                    <button
-                    type="button"
-                    data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide-to="3"
-                    aria-label="Slide 4"
-                    ></button>
+            <div className="flex flex-wrap gap-6 justify-center">
+                <div className="rounded-lg shadow-lg bg-white max-w-sm w-full md:w-1/2 lg:w-1/3">
+                    <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
+                    <img className="rounded-t-lg" src={ngopiyuk} alt=""/>
+                    </a>
+                    <div className="p-6">
+                    <h5 className="text-gray-900 text-xl font-medium mb-2">Ngopi Yuk</h5>
+                    <p className="text-gray-700 text-base mb-4">
+                        A coffee shop website that was made by HTML, CSS, Javascript.
+                    </p>
+                    <a href='https://wahyudwiprstka.github.io/projek_perancangan_web/' target="_blank">
+                    <button type="button" className="p-2 bg-indigo-600 rounded-lg shadow mt-2 text-white hover:bg-indigo-800 font-medium transition duration-150">Visit Website</button>
+                    </a>
+                    </div>
                 </div>
-                <div class="carousel-inner relative w-full overflow-hidden">
-                    <div class="carousel-item active relative float-left w-full">
-                    <a href='https://wahyudwiprstka.github.io/projek_perancangan_web' target="_blank">
-                    <img
-                        src={ngopiyuk}
-                        class="block w-full"
-                        alt="..."
-                    />
+                <div className="rounded-lg shadow-lg bg-white max-w-sm w-full md:w-1/2 lg:w-1/3">
+                    <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
+                    <img className="rounded-t-lg" src={abclearningcenter} alt=""/>
                     </a>
-                    <div class="carousel-caption hidden md:block absolute text-center">
-                        <h5 class="text-xl">Ngopi Yuk</h5>
-                        <p>A coffee shop website, made by HTML, CSS, Javascript</p>
-                    </div>
-                    </div>
-                    <div class="carousel-item relative float-left w-full">
-                    <a href='https://wahyudwiprstka.github.io/ABC-Learning-Center' target="_blank">
-                    <img
-                        src={abclearningcenter}
-                        class="block w-full"
-                        alt="..."
-                    />
+                    <div className="p-6">
+                    <h5 className="text-gray-900 text-xl font-medium mb-2">ABC Learning Center</h5>
+                    <p className="text-gray-700 text-base mb-4">
+                        A website that provides courses to people that want to be a software developer. This project was made by HTML, CSS, and Javascript.
+                    </p>
+                    <a href='https://wahyudwiprstka.github.io/ABC-Learning-Center/' target="_blank">
+                    <button type="button" className="p-2 bg-indigo-600 rounded-lg shadow mt-2 text-white hover:bg-indigo-800 font-medium transition duration-150">Visit Website</button>
                     </a>
-                    <div class="carousel-caption hidden md:block absolute text-center">
-                        <h5 class="text-xl">ABC Learning Center</h5>
-                        <p>Website for learning center company that provides courses for people who wants to be a software developer. This project was made by HTML, CSS, and Javascript</p>
                     </div>
-                    </div>
-                    <div class="carousel-item relative float-left w-full">
+                </div>
+                <div className="rounded-lg shadow-lg bg-white max-w-sm w-full md:w-1/2 lg:1/3">
+                    <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
+                    <img className="rounded-t-lg" src={abcjobs} alt=""/>
+                    </a>
+                    <div className="p-6">
+                    <h5 className="text-gray-900 text-xl font-medium mb-2">ABC Jobs Portal</h5>
+                    <p className="text-gray-700 text-base mb-4">
+                        A community portal website that use to communicate between software developer or find a job as a software developer. This project was made by JSP, Spring MVC, Bootstrap, Javascript and MySQL
+                    </p>
                     <a href='https://github.com/wahyudwiprstka/ABC-Jobs' target="_blank">
-                    <img
-                        src={abcjobs}
-                        class="block w-full"
-                        alt="..."
-                    />
+                    <button type="button" className="p-2 bg-indigo-600 rounded-lg shadow mt-2 text-white hover:bg-indigo-800 font-medium transition duration-150">See Repository</button>
                     </a>
-                    <div class="carousel-caption hidden md:block absolute text-center text-black">
-                        <h5 class="text-xl">ABC Jobs</h5>
-                        <p>Community portal for software developers to communicate, or find a job. This project was made by JSP, Spring MVC, Bootstrap, Javascript, MySQL</p>
                     </div>
-                    </div>
-                    <div class="carousel-item relative float-left w-full">
+                </div>
+                <div className="rounded-lg shadow-lg bg-white max-w-sm w-full md:w-1/2 lg:1/3">
+                    <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
+                    <img className="rounded-t-lg" src={abccars} alt=""/>
+                    </a>
+                    <div className="p-6">
+                    <h5 className="text-gray-900 text-xl font-medium mb-2">ABC Cars</h5>
+                    <p className="text-gray-700 text-base mb-4">
+                        A car bidding website. This project was made by JSP, Spring Boot, Bootstrap, Javascript and MySQL
+                    </p>
                     <a href='https://github.com/wahyudwiprstka/ABC-Cars' target="_blank">
-                    <img
-                        src={abccars}
-                        class="block w-full"
-                        alt="..."
-                    />
+                    <button type="button" className="p-2 bg-indigo-600 rounded-lg shadow mt-2 text-white hover:bg-indigo-800 font-medium transition duration-150">See Repository</button>
                     </a>
-                    <div class="carousel-caption hidden md:block absolute text-center">
-                        <h5 class="text-xl">ABC Cars</h5>
-                        <p>A car bidding website. This project was made by JSP, Spring Boot, Bootstrap, and Mysql</p>
-                    </div>
                     </div>
                 </div>
-                <button
-                    class="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0"
-                    type="button"
-                    data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide="prev"
-                >
-                    <span class="carousel-control-prev-icon inline-block bg-no-repeat" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button
-                    class="carousel-control-next absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0"
-                    type="button"
-                    data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide="next"
-                >
-                    <span class="carousel-control-next-icon inline-block bg-no-repeat" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-                </div>
+            </div>
         </section>
     );
 }
