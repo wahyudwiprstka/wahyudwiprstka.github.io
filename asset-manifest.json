@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.9d9810f5.css",
-    "main.js": "/static/js/main.2a2045bc.js",
+    "main.js": "/static/js/main.6bb9ee79.js",
     "static/media/ngopiyuk.png": "/static/media/ngopiyuk.398cdcd70018b8ddc8b5.png",
     "static/media/abclearningcenter.png": "/static/media/abclearningcenter.4444bbdc8f07350ae89f.png",
     "static/media/abccars.png": "/static/media/abccars.eadbd9b215e1d078ddb7.png",
@@ -9,10 +9,10 @@
     "static/media/abcjobs.png": "/static/media/abcjobs.c8f8eb656559c8c83af9.png",
     "index.html": "/index.html",
     "main.9d9810f5.css.map": "/static/css/main.9d9810f5.css.map",
-    "main.2a2045bc.js.map": "/static/js/main.2a2045bc.js.map"
+    "main.6bb9ee79.js.map": "/static/js/main.6bb9ee79.js.map"
   },
   "entrypoints": [
     "static/css/main.9d9810f5.css",
-    "static/js/main.2a2045bc.js"
+    "static/js/main.6bb9ee79.js"
   ]
 }
