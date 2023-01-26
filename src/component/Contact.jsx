@@ -27,8 +27,8 @@ const Contact = () => {
     
       return (
         <section id="contact">
-            <div className="text-center mb-7 pb-3 shadow-lg">
-                <h1 className="text-3xl text-primary font-bold">Contact Us</h1>
+            <div className="text-center mb-7 pb-3">
+                <h1 className="text-3xl text-primary font-bold">Contact Me</h1>
                 <form onSubmit={handleSubmit}>
                     <label className="text-xl">Name</label><br/>
                     <input type="text" name="name" onChange={handleChange} className="border border-gray-400 border-solid rounded w-2/3 mb-2 h-8 md:w-1/2"/>
