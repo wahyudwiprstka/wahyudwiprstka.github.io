@@ -39,7 +39,7 @@ const Project = () => {
                 </div>
                 <div class="carousel-inner relative w-full overflow-hidden">
                     <div class="carousel-item active relative float-left w-full">
-                    <a href='https://wahyudwiprstka.github.io/projek_perancangan_web'>
+                    <a href='https://wahyudwiprstka.github.io/projek_perancangan_web' target="_blank">
                     <img
                         src={ngopiyuk}
                         class="block w-full"
@@ -52,7 +52,7 @@ const Project = () => {
                     </div>
                     </div>
                     <div class="carousel-item relative float-left w-full">
-                    <a href='https://wahyudwiprstka.github.io/ABC-Learning-Center'>
+                    <a href='https://wahyudwiprstka.github.io/ABC-Learning-Center' target="_blank">
                     <img
                         src={abclearningcenter}
                         class="block w-full"
@@ -65,7 +65,7 @@ const Project = () => {
                     </div>
                     </div>
                     <div class="carousel-item relative float-left w-full">
-                    <a href='https://github.com/wahyudwiprstka/ABC-Jobs'>
+                    <a href='https://github.com/wahyudwiprstka/ABC-Jobs' target="_blank">
                     <img
                         src={abcjobs}
                         class="block w-full"
@@ -78,7 +78,7 @@ const Project = () => {
                     </div>
                     </div>
                     <div class="carousel-item relative float-left w-full">
-                    <a href='https://github.com/wahyudwiprstka/ABC-Cars'>
+                    <a href='https://github.com/wahyudwiprstka/ABC-Cars' target="_blank">
                     <img
                         src={abccars}
                         class="block w-full"

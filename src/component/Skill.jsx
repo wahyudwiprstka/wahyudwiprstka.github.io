@@ -13,7 +13,7 @@ const Skill = () => {
                         <i class="devicon-javascript-plain"></i>
                         <i class="devicon-java-plain-wordmark"></i>
                         <i class="devicon-bootstrap-plain-wordmark"></i>
-                        <i class="devicon-tailwindcss-original-wordmark"></i>
+                        <i class="devicon-tailwindcss-plain"></i>
                         <i class="devicon-jquery-plain"></i>
                         <i class="devicon-react-original"></i>
                         <i class="devicon-angularjs-plain"></i>
