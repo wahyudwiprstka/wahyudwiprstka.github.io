@@ -5,7 +5,7 @@ const Skill = () => {
     return(
         <section id='skill'>
             <div className="items-center">
-                <div className="skills mt-6 py-3 w-full mx-auto text-center bg-slate-100">
+                <div className="skills py-10 w-full mx-auto text-center shadow-lg md:shadow">
                     <h1 className="text-3xl text-center text-primary font-bold">Technical Skills</h1>
                     <div className='skill-icon flex flex-wrap gap-x-32 gap-y-5 justify-center mt-5'>
                         <i class="devicon-html5-plain-wordmark"></i>
@@ -13,7 +13,7 @@ const Skill = () => {
                         <i class="devicon-javascript-plain"></i>
                         <i class="devicon-java-plain-wordmark"></i>
                         <i class="devicon-bootstrap-plain-wordmark"></i>
-                        <i class="devicon-tailwindcss-original-wordmark"></i>
+                        <i class="devicon-tailwindcss-plain"></i>
                         <i class="devicon-jquery-plain"></i>
                         <i class="devicon-react-original"></i>
                         <i class="devicon-angularjs-plain"></i>
