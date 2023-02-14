@@ -6,10 +6,10 @@ import abccars from '../img/abccars.png';
 
 const Project = () => {
     return(
-        <section className="py-8 shadow-lg md:shadow" id="project">
+        <section className="z-10 py-8 shadow-lg md:shadow dark:bg-dark dark:shadow-slate-600" id="project">
             <h1 className="text-3xl text-center text-primary font-bold mb-2">My Projects</h1>
             <div className="flex flex-wrap gap-6 justify-center">
-                <div className="rounded-lg shadow-lg bg-white max-w-sm w-full md:w-1/2 lg:w-1/3">
+                <div className="rounded-lg shadow-lg bg-white max-w-sm w-full md:w-1/2 lg:w-1/4 dark:shadow-slate-600">
                     <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
                     <img className="rounded-t-lg" src={ngopiyuk} alt=""/>
                     </a>
@@ -23,7 +23,7 @@ const Project = () => {
                     </a>
                     </div>
                 </div>
-                <div className="rounded-lg shadow-lg bg-white max-w-sm w-full md:w-1/2 lg:w-1/3">
+                <div className="rounded-lg shadow-lg bg-white max-w-sm w-full md:w-1/2 lg:w-1/4 dark:shadow-slate-600">
                     <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
                     <img className="rounded-t-lg" src={abclearningcenter} alt=""/>
                     </a>
@@ -37,7 +37,7 @@ const Project = () => {
                     </a>
                     </div>
                 </div>
-                <div className="rounded-lg shadow-lg bg-white max-w-sm w-full md:w-1/2 lg:1/3">
+                <div className="rounded-lg shadow-lg bg-white max-w-sm w-full md:w-1/2 lg:1/4 dark:shadow-slate-600">
                     <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
                     <img className="rounded-t-lg" src={abcjobs} alt=""/>
                     </a>
@@ -51,7 +51,7 @@ const Project = () => {
                     </a>
                     </div>
                 </div>
-                <div className="rounded-lg shadow-lg bg-white max-w-sm w-full md:w-1/2 lg:1/3">
+                <div className="rounded-lg shadow-lg bg-white max-w-sm w-full md:w-1/2 lg:1/4 dark:shadow-slate-600">
                     <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
                     <img className="rounded-t-lg" src={abccars} alt=""/>
                     </a>

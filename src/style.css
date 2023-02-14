@@ -1,3 +1,17 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
     font-family: 'Sofia Sans', sans-serif;
+}
+
+#dark-toggle:checked ~ label div.flex,
+#dark-toggle-sm:checked ~ label div.flex{
+    background-color: green !important;
+}
+
+#dark-toggle:checked ~ label div.toggle-circle,
+#dark-toggle-sm:checked ~ label div.toggle-circle{
+    @apply translate-x-3;
 }
