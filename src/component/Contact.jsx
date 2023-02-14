@@ -5,7 +5,7 @@ const Contact = () => {
     
       return (
         <section id="contact">
-            <div className="text-center mb-7 pb-3">
+            <div className="text-center py-8">
                 <h1 className="text-3xl text-primary font-bold">Contact Me</h1>
                 <form action="https://formspree.io/f/xrgvpjaj" method="POST">
                     <label className="text-xl">Email</label><br/>

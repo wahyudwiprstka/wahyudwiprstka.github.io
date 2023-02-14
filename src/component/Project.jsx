@@ -6,8 +6,8 @@ import abccars from '../img/abccars.png';
 
 const Project = () => {
     return(
-        <section className="mb-8" id="project">
-            <h1 className="text-3xl text-center text-primary font-bold mt-10 mb-2">My Projects</h1>
+        <section className="py-8 shadow-lg md:shadow" id="project">
+            <h1 className="text-3xl text-center text-primary font-bold mb-2">My Projects</h1>
             <div className="flex flex-wrap gap-6 justify-center">
                 <div className="rounded-lg shadow-lg bg-white max-w-sm w-full md:w-1/2 lg:w-1/3">
                     <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
