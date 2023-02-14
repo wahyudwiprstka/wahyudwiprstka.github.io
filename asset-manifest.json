@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.9d9810f5.css",
-    "main.js": "/static/js/main.ca34db12.js",
+    "main.css": "/static/css/main.6bbb1aa3.css",
+    "main.js": "/static/js/main.a44f91f6.js",
     "static/media/ngopiyuk.png": "/static/media/ngopiyuk.398cdcd70018b8ddc8b5.png",
     "static/media/abclearningcenter.png": "/static/media/abclearningcenter.4444bbdc8f07350ae89f.png",
     "static/media/abccars.png": "/static/media/abccars.eadbd9b215e1d078ddb7.png",
     "static/media/myPhoto.png": "/static/media/myPhoto.a5576cbf071aff96de98.png",
     "static/media/abcjobs.png": "/static/media/abcjobs.c8f8eb656559c8c83af9.png",
     "index.html": "/index.html",
-    "main.9d9810f5.css.map": "/static/css/main.9d9810f5.css.map",
-    "main.ca34db12.js.map": "/static/js/main.ca34db12.js.map"
+    "main.6bbb1aa3.css.map": "/static/css/main.6bbb1aa3.css.map",
+    "main.a44f91f6.js.map": "/static/js/main.a44f91f6.js.map"
   },
   "entrypoints": [
-    "static/css/main.9d9810f5.css",
-    "static/js/main.ca34db12.js"
+    "static/css/main.6bbb1aa3.css",
+    "static/js/main.a44f91f6.js"
   ]
 }
