@@ -37,7 +37,11 @@ const Navbar = () => {
                     <li className="ml-5 text-lg"><a href="#skill">Skills</a></li>
                     <li className="ml-5 text-lg"><a href="#project">Projects</a></li>
                     <li className="ml-5 text-lg"><a href='#contact'>Contact</a></li>
-                    <li className="ml-5 text-lg"><a href='https://github.com/wahyudwiprstka/wahyudwiprstka.github.io/blob/main/Resume%20-%20I%20Kadek%20Wahyu%20Dwi%20Prastika.docx?raw=true'><button className="p-2 bg-indigo-600 text-white rounded shadow hover:bg-indigo-800 transition">Download My Resume</button></a></li>
+                    <li className="ml-5 text-lg">
+                        <a href='https://github.com/wahyudwiprstka/wahyudwiprstka.github.io/raw/main/Resume%20-%20I%20Kadek%20Wahyu%20Dwi%20Prastika.pdf'>
+                            <button className="p-2 bg-indigo-600 text-white rounded shadow hover:bg-indigo-800 transition" type='submit'>Download My Resume</button>
+                        </a>
+                    </li>
                     <li className="text-white">
                             <div className='flex'>
                                 <span className='ml-5 text-sm text-slate-500'>Light</span>
